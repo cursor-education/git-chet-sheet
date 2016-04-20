@@ -28,6 +28,12 @@ $ git checkout master
 $ git pull origin master
 $ git merge feature
 $ git push origin master
+
+$ git checkout feature
+$ git rebase master   # to merge master's changes to feature-branch
+
+$ git add file.txt
+$ git rebase --continue
 ```
 
 ## Revert

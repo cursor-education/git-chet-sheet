@@ -1,5 +1,7 @@
 # Git Cheat Sheet
 
+http://explainshell.com/
+
 ## Config
 ```shell
 $ git config --global alias.co checkout
@@ -21,5 +23,11 @@ $ git push origin :BRANCH   # to delete a remote branch
 
 ## Revert
 ```shell
-
+$ git lg -p    # to view log \w diff per commit
 ```
+
+# Log
+```shell
+$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
+![](http://new.tinygrab.com/7020c0e8b09291f70b7a01c3231a53e9b46f26de34.png)

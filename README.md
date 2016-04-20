@@ -22,6 +22,14 @@ $ git branch -D BRANCH   # to delete a local branch (that wasn't merged)
 $ git push origin :BRANCH   # to delete a remote branch
 ```
 
+## Merge
+```shell
+$ git checkout master
+$ git pull origin master
+$ git merge feature
+$ git push origin master
+```
+
 ## Revert
 ```shell
 $ git lg -p    # to view log \w diff per commit

@@ -27,7 +27,7 @@ $ git push origin :BRANCH   # to delete a remote branch
 $ git lg -p    # to view log \w diff per commit
 ```
 
-# Log
+## Log
 ```shell
 $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```

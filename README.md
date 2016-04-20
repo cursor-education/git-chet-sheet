@@ -20,6 +20,8 @@ $ git checkout BRANCH   # to switch to a new branch
 $ git branch -d BRANCH   # to delete a branch locally
 $ git branch -D BRANCH   # to delete a local branch (that wasn't merged)
 $ git push origin :BRANCH   # to delete a remote branch
+
+$ git checkout BRANCH -- FILE   # checkout exact file from specific branch
 ```
 
 ## Merge
